@@ -1,0 +1,38 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "postinstall": "rm -rf node_modules/expo/node_modules/react-native-safe-area-context",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^12.0.5",
+    "@react-navigation/native": "^6.0.2",
+    "@react-navigation/native-stack": "^6.1.0",
+    "axios": "^0.21.1",
+    "expo": "~42.0.1",
+    "expo-components": "^1.6.4",
+    "expo-constants": "^11.0.1",
+    "expo-google-app-auth": "^8.2.2",
+    "expo-status-bar": "~1.0.4",
+    "formik": "^2.2.9",
+    "react": "16.13.1",
+    "react-dom": "^16.14.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-42.0.0.tar.gz",
+    "react-native-gesture-handler": "~1.10.2",
+    "react-native-safe-area-context": "^3.3.0",
+    "react-native-screens": "^3.4.0",
+    "react-native-splash-screen": "^3.2.0",
+    "react-native-web": "^0.17.1",
+    "rn-checkbox-list": "^0.4.0",
+    "styled-components": "^5.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "expo-module-scripts": "^2.0.0"
+  },
+  "private": true
+}
